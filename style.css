@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(imagens/city.gif);
+    background-blend-mode:  overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: #4b4b4b;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    font-family: 'Times New Roman', Times, serif ;
+    background: #88c9f5;
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 60%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+fieldset {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+div.slogan {
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 50px;
+    
+}
+
+button {
+    margin: 20px 0 0 13%;
+    padding: 5px;
+    color: #ffffff;
+}
+
+button:hover {
+    transition-duration: 1s;
+    padding: 12px;
+    background-color: #000000;
+
+}
+
+#cadastrar {
+    background-color:#008000;
+    margin-right: 30px;
+}
+
+#limpar {
+    background-color: #ff0000;
+}

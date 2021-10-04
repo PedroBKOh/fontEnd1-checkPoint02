@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="slogan">
+        <h1>Olá Visitante!</h1>
+        <p>Sua opinião é muito importante para nós.</p>
+    </div>
+   
+
+    
+    <form action="">
+
+        <h1>Cadastro</h1>
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+                    
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" maxlength="100" >
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="email" required placeholder= "exemplo@email.com">
+            </div>
+
+            <div>
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+            </div>
+
+            <div>
+                <label for="date">Data de Nascimento</label>
+                <input id="date" type="date">
+            </div>
+
+            <div>
+                <input type="radio" id="option" name="option">
+                <label for="option">Maior de Idade</label>
+                <input type="radio" id="option" name="option">
+                <label for="option">Menor de Idade</label>
+            </div>
+
+        </fieldset>
+            
+        <fieldset>
+
+            <legend>Interesse Principal</legend>
+
+            <div>
+                <label for="text">Interesse:</label>
+                <select name="text" id="text">
+                    <option value="">---Selecione---</option>
+                    <option value="">Comércio</option>
+                    <option value="">Educação</option>
+                    <option value="">Trabalho</option>
+                    <option value="">Turismo</option>
+                    <option value="">Saúde</option>
+                </select>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Outros Interesses<i>(opcional)</i></legend>
+
+            <div>
+                <input type="checkbox" id="option" name="">
+                <label for="">Turista</label>
+                <input type="checkbox" id="option" name="">
+                <label for="">Residente</label>
+                <input type="checkbox" id="option" name="">
+                <label for="">Estudante</label>
+            </div>
+
+        </fieldset>
+
+            <button type="submit" id="cadastrar">Cadastrar</button>
+            <button type="reset" id="limpar">Limpar</button>
+    </form>
+         
+</body>
+</html>
